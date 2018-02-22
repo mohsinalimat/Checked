@@ -12,6 +12,11 @@
 		942D3D87202AA3A20009141C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942D3D85202AA3A20009141C /* Main.storyboard */; };
 		942D3D89202AA3A20009141C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942D3D88202AA3A20009141C /* Assets.xcassets */; };
 		942D3D8C202AA3A20009141C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942D3D8A202AA3A20009141C /* LaunchScreen.storyboard */; };
+		942D3D94202AAC070009141C /* ToDoItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942D3D93202AAC070009141C /* ToDoItemCell.swift */; };
+		942D3D96202AB24A0009141C /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942D3D95202AB24A0009141C /* ToDoItem.swift */; };
+		944B1A24202EB80600EFBA26 /* ToDoItemsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B1A23202EB80600EFBA26 /* ToDoItemsDataSource.swift */; };
+		9455D5A2202D31B900CE0B12 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9455D5A1202D31B900CE0B12 /* Status.swift */; };
+		9455D5A4202D322400CE0B12 /* ItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9455D5A3202D322400CE0B12 /* ItemManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		942D3D88202AA3A20009141C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		942D3D8B202AA3A20009141C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		942D3D8D202AA3A20009141C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		942D3D93202AAC070009141C /* ToDoItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemCell.swift; sourceTree = "<group>"; };
+		942D3D95202AB24A0009141C /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		944B1A23202EB80600EFBA26 /* ToDoItemsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemsDataSource.swift; sourceTree = "<group>"; };
+		9455D5A1202D31B900CE0B12 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		9455D5A3202D322400CE0B12 /* ItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				942D3D88202AA3A20009141C /* Assets.xcassets */,
 				942D3D8A202AA3A20009141C /* LaunchScreen.storyboard */,
 				942D3D8D202AA3A20009141C /* Info.plist */,
+				942D3D93202AAC070009141C /* ToDoItemCell.swift */,
+				942D3D95202AB24A0009141C /* ToDoItem.swift */,
+				9455D5A1202D31B900CE0B12 /* Status.swift */,
+				9455D5A3202D322400CE0B12 /* ItemManager.swift */,
+				944B1A23202EB80600EFBA26 /* ToDoItemsDataSource.swift */,
 			);
 			path = Checked;
 			sourceTree = "<group>";
@@ -136,7 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9455D5A2202D31B900CE0B12 /* Status.swift in Sources */,
+				942D3D94202AAC070009141C /* ToDoItemCell.swift in Sources */,
 				942D3D84202AA3A20009141C /* ViewController.swift in Sources */,
+				942D3D96202AB24A0009141C /* ToDoItem.swift in Sources */,
+				944B1A24202EB80600EFBA26 /* ToDoItemsDataSource.swift in Sources */,
+				9455D5A4202D322400CE0B12 /* ItemManager.swift in Sources */,
 				942D3D82202AA3A20009141C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 238S5T6M6S;
 				INFOPLIST_FILE = Checked/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = romanSubrychak.Checked;
@@ -289,6 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 238S5T6M6S;
 				INFOPLIST_FILE = Checked/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = romanSubrychak.Checked;
