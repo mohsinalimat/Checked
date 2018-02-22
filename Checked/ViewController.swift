@@ -24,7 +24,7 @@ class ViewController: UIViewController {
 	
 	
 	@IBAction func addToDoTapped(_ sender: UIBarButtonItem) {
-		let alert = UIAlertController(title: "Add ToD", message: nil,
+		let alert = UIAlertController(title: "Add ToDo", message: nil,
 									  preferredStyle: .alert)
 		alert.addTextField { textField in
 			textField.placeholder = "Description"

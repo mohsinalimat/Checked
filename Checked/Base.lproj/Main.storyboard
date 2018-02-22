@@ -130,7 +130,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="dataSource" destination="r0F-8U-6IT" id="kgj-Bt-ey0"/>
-                        <outlet property="tableView" destination="ORd-GT-e8I" id="OGY-k2-oBX"/>
+                        <outlet property="tableView" destination="ORd-GT-e8I" id="qpM-kP-97B"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
